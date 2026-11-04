@@ -4,13 +4,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131 | Pamela S.T. González Ramírez</title>
+    <title>WDD 131 - Dynamic Web Fundamentals - Pamela S.T. González Ramírez</title>
+    <meta name="description"
+        content="WDD 131 - Dynamic Web Fundamentals. Pamela S.T. González Ramírez. Personal introduction, information about Chile, and web development resources.">
+    <meta name="author" content="Pamela S.T. González Ramírez">
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
 </head>
 
 <body>
-    <h1>Pamela S.T. González Ramíre</h1>
-    <p>Welcome to WDD 131 - Dynamic Web Fundamentals.</p>
+    <header>
+        <span id="course-title">WDD 131 - Dynamic Web Fundamentals</span>
+        <nav>
+            <a href="https://www.linkedin.com/in/pamelagonzalezramirez/">LinkedIn</a>
+            <a href="https://byupw.instructure.com/">Canvas</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures">Scripture</a>
+            <a href="#">Final Project</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Pamela S.T. González Ramírez</h1>
 
+        <section class="card">
+            <h2>About Me</h2>
+            <img src="images/profile.jpg" alt="Portrait of Pamela González Ramírez" width="150">
+            <p>Hello! My name is Pamela Soledad Teresa González Ramírez, and I am from the city of Calama, located in
+                the far north of Chile a desert region known for mining. I have a strong interest in business
+                administration, particularly in the field of finance. I graduated in 2000 with a degree in Business
+                Administration, specializing in finance and auditing a field I am passionate about. My hobbies are
+                primarily reading and writing; I enjoy reading all kinds of books and writing stories and narratives.
+                Currently, I am pursuing professional studies in programming and web development. I decided to venture
+                into this completely different field, and so far, I have really enjoyed creating a website from scratch.
+            </p>
+            <h3>Calama, Chile</h3>
+            <img src="images/provincia-loa.webp" alt="Landscape of El Loa Province in northern Chile" width="200">
+            <p>Loa Province is located in the Antofagasta Region of Chile. It borders the Tarapacá Region to the north,
+                Bolivia and Argentina to the east, the Antofagasta Province to the south, and the Tocopilla Province to
+                the west. Its provincial capital is Calama. Calama is a city situated in the far north of Chile, in the
+                driest desert in the world. It is a transit point for both tourists and miners, as it is located near
+                several world-renowned mines, such as Chuquicamata, the world's largest open-pit mine, and other smaller
+                mines like El Abra, Radomiro Tomic, Gabriela Mistral, Spence, and Sierra Gorda, among others. The main
+                metal extracted is copper. In addition to mining, visitors can explore typical desert tourist
+                attractions, such as the Valley of the Moon, Death Valley, Chiu Chiu Lagoon, and the El Tatio Geysers.
+                Other towns with colonial architecture can also be visited, such as San Pedro de Atacama, Chiu Chiu,
+                Toconce, and Cupo. Despite being a desert region, it is traversed by the Loa River, which has unique
+                characteristics. Due to the desert environment, it has maintained a flow (in some sections practically
+                nonexistent) thanks to the upwelling of groundwater.</p>
+        </section>
+        <section class="card">
+            <h2>Web Dev Resources</h2>
+            <ul>
+                <li><a href="https://developer.mozilla.org/">MDN Web Docs</a></li>
+                <li><a href="https://www.w3schools.com/">W3Schools</a></li>
+                <li><a href="https://css-tricks.com/">CSS-Tricks</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>© <span id="currentyear"></span> | Pamela S.T. González Ramírez | Chile</p>
+        <p id="lastModified"></p>
+</footer>
 </body>
 
 </html>
