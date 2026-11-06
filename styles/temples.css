@@ -55,6 +55,7 @@ header span {
     transition: background-color 0.3s ease;
     text-align: center;
     color: white;
+    background-color: #2e4b74;
 }
 
 .navigation a:hover,
