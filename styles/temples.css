@@ -37,11 +37,14 @@ header span {
 
 @media screen and (max-width: 767px) {
     .navigation {
-        display: none;
+        visibility: hidden;
+        max-height: 0;
+        overflow: hidden;
     }
 
     .navigation.open {
-        display: flex;
+        visibility: visible;
+        max-height: 300px;
     }
 }
 
