@@ -30,13 +30,19 @@ header span {
 }
 
 .navigation {
-    display: none;
+    display: flex;
     flex-direction: column;
     background-color: #2e4b74;
 }
 
-.navigation.open {
-    display: flex;
+@media screen and (max-width: 767px) {
+    .navigation {
+        display: none;
+    }
+
+    .navigation.open {
+        display: flex;
+    }
 }
 
 .navigation a {
