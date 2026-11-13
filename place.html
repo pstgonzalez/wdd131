@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover San Pedro de Atacama, Chile, its geography, attractions, and weather.">
+    <meta name="author" content="Pamela S.T. González Ramírez">
+    <title>San Pedro de Atacama | WDD 131</title>
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>San Pedro de Atacama</h1>
+    </header>
+
+    <main>
+        <div class="hero">
+            <picture>
+                <source media="(min-width: 768px)" srcset="images/v_moon_large.webp">
+
+                <img src="images/v_moon_small.webp"
+                    alt="Rock formations in Valle de la Luna, San Pedro de Atacama, Chile" width="500" height="750">
+            </picture>
+        </div>
+
+        <section class="data">
+            <h2>Data</h2>
+            <dl>
+                <dt>Country:</dt>
+                <dd>Chile</dd>
+
+                <dt>Region:</dt>
+                <dd>Antofagasta</dd>
+
+                <dt>Province:</dt>
+                <dd>El Loa</dd>
+
+                <dt>Elevation:</dt>
+                <dd>2,400 m</dd>
+
+                <dt>Time Zone:</dt>
+                <dd>UTC−4 / UTC−3</dd>
+
+                <dt>Language:</dt>
+                <dd>Spanish</dd>
+
+                <dt>Currency:</dt>
+                <dd>Chilean Peso (CLP)</dd>
+            </dl>
+        </section>
+
+        <section class="weather">
+            <h2>Weather</h2>
+            <img class="weather-icon" src="images/weather.svg" alt="Partly cloudy weather" width="64" height="64">
+
+            <dl>
+                <dt>Temperature:</dt>
+                <dd>8 °C</dd>
+
+                <dt>Conditions:</dt>
+                <dd>Partly Cloudy</dd>
+
+                <dt>Wind:</dt>
+                <dd>10 km/h</dd>
+
+                <dt>Wind Chill:</dt>
+                <dd id="windchill"></dd>
+            </dl>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            &copy; <span id="currentyear"></span>
+            | Pamela S.T. González Ramírez | Chile
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+
+</body>
+
+</html>
