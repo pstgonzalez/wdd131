@@ -130,15 +130,6 @@ footer p {
         object-fit: cover;
     }
 
-    .data,
-    .weather {
-        position: absolute;
-        background-color: rgb(255, 255, 255);
-        padding: 1.5rem;
-        width: 340px;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-    }
-
     .data {
         top: 30px;
         left: 30px;
@@ -155,6 +146,7 @@ footer p {
         color: var(--white);
         padding: 0.8rem;
         text-align: left;
+        font-size: 1.5rem;
     }
 
     .climate-info {
@@ -171,17 +163,13 @@ footer p {
 
     .data,
     .weather {
+        position: absolute;
+        background-color: var(--white);
+        padding: 1.5rem;
+        width: 340px;
         font-size: 1rem;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     }
-
-    .data h2,
-    .weather h2 {
-        font-size: 1.5rem;
-    }
-}
-
-body {
-    background-color: #efdabc;
 }
 
 /* Weather icon for mobile */
